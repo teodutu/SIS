@@ -2,8 +2,6 @@
 # This file showcases the use of pexpect
 # for writing shell-interactive programs.
 #########################################
-
-from sys import base_exec_prefix
 import pexpect
 import re
 
