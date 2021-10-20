@@ -1,0 +1,3 @@
+[submodule "sis"]
+	path = sis
+	url = git@github.com:systems-cs-pub-ro/sis.git
