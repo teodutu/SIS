@@ -32,3 +32,11 @@ Task 4 is your typical side-channel attack, whereby a password checking app iter
 [task 3.c](./Labs/Lab3/ret-to-libc/exploit.py) where a simple 1-stage
 ret-to-libc exploit is performed. Only 1 stage is necessary as ASLR is turned 
 off, so the address of `libc` can be found by simply running `ldd`.
+
+
+### Lab 4 - Web Exploit
+A few simple web exploiting tasks, which showcase the usage of:
+- [dirb](https://sourceforge.net/projects/dirb/)
+- unsanitised user inputs
+- sql injection
+- query parameter exploitation
