@@ -7,5 +7,5 @@ So no `/bin/sh` is allowed :(.
 However, `nm` shows that a variable called `flag` (wink, wink) is at address `0x4009a0`, which is inside the `.rodata` section.
 Upon inspection using `xxd`, the string `SIS_CTF{aaaaaaaaaaaaaaaaaaaaaaaaaa}` is stored at this address (in the "public" binary, that is).
 
-As a result, I crafted a shellcode that `write`s 35 bytes (the length of the flag) from address `0x4009a0` to `stdout`.
+As a result, I used `pwntools` to create a shellcode that `write`s 35 bytes (the length of the flag) from address `0x4009a0` to `stdout`.
 And this was it.
