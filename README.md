@@ -40,3 +40,11 @@ A few simple web exploiting tasks, which showcase the usage of:
 - unsanitised user inputs
 - sql injection
 - query parameter exploitation
+
+
+### Lab 5 - ROP & DOP
+The ROP tasks are classics.
+The DOP task is bullshit.
+The vulnerable program is an interpreter that can be made to print any 6-digit string.
+It's all about computing offsets.
+Boring.
