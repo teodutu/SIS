@@ -42,9 +42,14 @@ A few simple web exploiting tasks, which showcase the usage of:
 - query parameter exploitation
 
 
-### Lab 5 - ROP & DOP
+### Lab 6 - ROP & DOP
 The ROP tasks are classics.
 The DOP task is bullshit.
 The vulnerable program is an interpreter that can be made to print any 6-digit string.
 It's all about computing offsets.
 Boring.
+
+
+### Lab 7 - App Confinement
+A weird lab about [AppArmor](https://apparmor.net/), `chroot` and `secoomp`.
+Not much is of interest.
