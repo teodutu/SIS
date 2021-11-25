@@ -42,6 +42,11 @@ A few simple web exploiting tasks, which showcase the usage of:
 - query parameter exploitation
 
 
+### Lab 5 - DEP & ASLR
+ASLR is bypassed by ret-to-plt.
+DEP is bypased by ret-to-libc.
+
+
 ### Lab 6 - ROP & DOP
 The ROP tasks are classics.
 The DOP task is bullshit.
@@ -53,3 +58,8 @@ Boring.
 ### Lab 7 - App Confinement
 A weird lab about [AppArmor](https://apparmor.net/), `chroot` and `secoomp`.
 Not much is of interest.
+
+
+### Lab 8 - System Isolation
+Cracking `chroot`, VMs and other bullshit.
+Uninteresting.
