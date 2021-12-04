@@ -63,3 +63,11 @@ Not much is of interest.
 ### Lab 8 - System Isolation
 Cracking `chroot`, VMs and other bullshit.
 Uninteresting.
+
+
+
+## Homework
+### Assignment 1
+Some rather boring challenges.
+The mosti interesting of them is [`injection`](Homework/Assignment-1/injection).
+It can be solved in a simpler way, but I chose to pivot the stack in order to make room for the shellcode.
