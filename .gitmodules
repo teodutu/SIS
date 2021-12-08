@@ -1,3 +1,6 @@
 [submodule "sis"]
 	path = sis
 	url = git@github.com:systems-cs-pub-ro/sis.git
+[submodule "Labs/Lab9/picpic"]
+	path = Labs/Lab9/picpic
+	url = git@github.com:AkanTM/picpic.git

@@ -65,6 +65,11 @@ Cracking `chroot`, VMs and other bullshit.
 Uninteresting.
 
 
+### Lab 9 - Code Analysis
+This lab has us investigate a bunch of code bases in order to discover bugs.
+Some static analysis tools like `cppcheck`, `flawfinder` and `clang-tidy` are also explored.
+
+
 
 ## Homework
 ### Assignment 1
