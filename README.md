@@ -74,5 +74,11 @@ Some static analysis tools like `cppcheck`, `flawfinder` and `clang-tidy` are al
 ## Homework
 ### Assignment 1
 Some rather boring challenges.
-The mosti interesting of them is [`injection`](Homework/Assignment-1/injection).
+The most interesting of them is [`injection`](Homework/Assignment-1/injection).
 It can be solved in a simpler way, but I chose to pivot the stack in order to make room for the shellcode.
+
+
+### Assignment 2
+Some more annoying misc and forensics challenges.
+The more interesting one is probably [`no_room`](./Homework/Assignment/no_room).
+The reason it's interesting is because it requires pivoting the stack onto the `.data` section because the stack buffer is not large enough.
